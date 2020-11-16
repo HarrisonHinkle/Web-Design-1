@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Changes the text color to white and changes the font. */
+body {
+    background-color: chocolate;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Centers the entrie page and provides a white border. */ 
+.center {
+    width: 720px;
+    margin: 35px auto;
+    border: 1px solid white;
+    padding: 50px;
+}
+
+p {
+    width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/* Makes the color of the header at the top black. */
+h1 {
+    color: black;
+}
+
+
+h2 {
+    width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+    
+}
+
+/* Keeps the images at the center of the page and makes them larger. */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+figcaption {
+    width: 180px;
+    margin: 0 auto;
+}
+
+/* centers the table and adds a white border. */
+table {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 5px;
+    border:1px solid white;
+}
+
+/* Adds another border around the table elements. */
+tr{
+    border:1px solid white;
+}
+
+td{
+    border:1px solid whitesmoke;
+}
+
+/* Centers and gives a border to all unordered lists. */
+ul {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 3px;
+    border:1px solid white; 
+}
+
+/* Centers and gives a border to all ordered lists. */
+ol {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 3px;
+    border:1px solid white; 
+}
+
+/* Changes the color of the links depending on the state they are in. */
+a:link {
+    color: purple;
+  }
+  
+a:visited {
+    color: blue;
+}
+  
+
+a:hover {
+    color:red;
+}
+
+a:active {
+    color: green;
+}
+
+/* Bolds the text of any text element that is given this class name. */
+.bold {
+    font-weight: bold;
+}
